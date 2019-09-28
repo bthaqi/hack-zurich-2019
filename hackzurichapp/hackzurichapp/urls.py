@@ -15,7 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from rest_framework import routers
+
+from elasticsearchdata.views import ElasticSearchDataViewSet
+
+
+router = routers.SimpleRouter()
+router.register(r'elasticsearchdata', ElasticSearchDataViewSet)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+urlpatterns += router.urls
