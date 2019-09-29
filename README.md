@@ -2,9 +2,9 @@
 **Challenge of Credit Suisse for Hack Zurich 2019**
 
 Project tech stack:
-1. Python 3.6
-2. Django 2.2
-3. Django Rest Framework 3.9
+1. Python 
+2. Flask
+3. Elastic Search
 
 #
 **Python Installation**
@@ -15,32 +15,13 @@ https://www.python.org/downloads/
 #
 **Start App Instructions**
 
-Activate the source environment:
+Run the server script:
 ```
-source env/bin/activate
-```
-
-Install requirements:
-```
-pip install -r requirements.txt
+python3 server.py
 ```
 
-Make migrations:
+Run Ngrok:
 ```
-python manage.py makemigrations
-```
-
-Run migrations:
-```
-python manage.py migrate
+./ ngrok http 5000
 ```
 
-Create superuser account:
-```
-python manage.py createsuperuser
-```
-
-Run server in your local:
-```
-python manage.py runserver
-```
