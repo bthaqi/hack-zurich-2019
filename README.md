@@ -1,10 +1,11 @@
 # HackZurich2019
 **Challenge of Credit Suisse for Hack Zurich 2019**
 
-Project tech stack:
+Project tech stack and tools:
 1. Python 
 2. Flask
 3. Elastic Search
+4. SentimentIntensityAnalyzer
 
 #
 **Python Installation**
