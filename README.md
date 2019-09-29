@@ -15,6 +15,13 @@ To run this project on your machine, you need to install Python here:
 https://www.python.org/downloads/
 
 #
+**Ngrok Installation**
+
+Check Ngrok installation and instructions here:
+
+https://ngrok.com/
+
+#
 **Start App Instructions**
 
 Install the requirements:
@@ -31,4 +38,3 @@ Run ngrok:
 ```
 ./ ngrok http 5000
 ```
-
