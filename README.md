@@ -15,13 +15,17 @@ https://www.python.org/downloads/
 
 #
 **Start App Instructions**
+Install the requirements:
+```
+pip3 install -r requirements.txt
+```
 
 Run the server script:
 ```
 python3 server.py
 ```
 
-Run Ngrok:
+Run ngrok:
 ```
 ./ ngrok http 5000
 ```
