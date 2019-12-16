@@ -4,7 +4,6 @@ black==19.3b0
 certifi==2019.6.16
 chardet==3.0.4
 Click==7.0
-Django==2.2.8
 elasticsearch==7.0.4
 Flask==1.1.1
 Flask-Cors==3.0.8
@@ -20,7 +19,6 @@ numpy==1.16.4
 protobuf==3.7.1
 pytz==2018.7
 requests==2.22.0
-requests-mock==1.6.0
 six==1.12.0
 sqlparse==0.3.0
 toml==0.10.0
