@@ -25,4 +25,4 @@ toml==0.10.0
 urllib3==1.26.5
 vaderSentiment==3.2.1
 virtualenv==16.7.5
-Werkzeug==0.16.0
+Werkzeug==2.2.3
